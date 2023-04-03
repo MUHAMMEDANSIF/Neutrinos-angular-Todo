@@ -1,0 +1,7 @@
+<header style="display: flex; justify-content: space-between;">
+    <h3>{{ title }}</h3>
+    <app-button 
+    color="{{showAddtask ? 'red' : 'green'}}" 
+    text="{{showAddtask ? 'Close' : 'Add'}}" 
+    (btnclick)="togglebtn()"></app-button>
+</header>
